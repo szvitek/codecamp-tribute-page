@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: dodgerblue;
+  color: gold;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+}
+
+#title {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#achievements {
+  text-align: center;
+  text-decoration: underline;
+}
+
+a {
+  color: ghostwhite;
+}
